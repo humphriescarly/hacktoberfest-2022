@@ -1,16 +1,16 @@
 import * as React from "react"
 import Layout from "../components/Layout"
 
-const IndexPage = () => {
+const ContactPage = () => {
   return (
     <Layout>
       <div>
-        Home Page
+        Contact Page
       </div>
     </Layout>
   )
 }
 
-export default IndexPage
+export default ContactPage
 
 export const Head = () => <title>Home Page</title>
