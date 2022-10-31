@@ -1,11 +1,12 @@
 import * as React from "react"
 import Layout from "../components/Layout"
+import 'animate.css';
 
 const IndexPage = () => {
   return (
     <Layout>
       <div>
-        <h1>Home Page</h1>
+        <h1 className="mt-5 animate__animated animate__bounce">Home Page</h1>
       </div>
     </Layout>
   )
